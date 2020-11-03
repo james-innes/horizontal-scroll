@@ -1,0 +1,22 @@
+{
+  "name": "@james-innes/horizontal-scroll",
+  "version": "1.0.0",
+  "description": "Translate vertical scroll to horizontal for the web.",
+  "main": "horizontal-scroll.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-innes/horizontal-scroll.git"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "horizontal",
+    "scroll"
+  ],
+  "author": "James.Innes13@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-innes/horizontal-scroll/issues"
+  },
+  "homepage": "https://github.com/james-innes/horizontal-scroll#readme"
+}
