@@ -1,6 +1,6 @@
 {
   "name": "@james-innes/horizontal-scroll",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Translate vertical scroll to horizontal for the web.",
   "main": "horizontal-scroll.js",
   "repository": {
