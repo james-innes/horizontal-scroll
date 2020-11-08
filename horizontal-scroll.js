@@ -1,7 +1,8 @@
 function reverse(e) {
-  e.deltaY != 0 &&
-    (window.scroll(window.scrollX + e.deltaY, window.scrollY),
-    e.preventDefault());
+  if (e.deltaY !== 0) {
+    window.scrollBy(e.deltaY, 0);
+    e.preventDefault();
+  }
 }
 
 class HorizontalScroll {
