@@ -5,17 +5,13 @@ function reverse(e) {
   }
 }
 
-class HorizontalScroll {
-  static start() {
-    window.addEventListener("wheel", reverse, { passive: false });
-  }
-  static stop() {
-    window.removeEventListener("wheel", reverse);
-  }
-}
+const HorizontalScroll = () => {
+  window.addEventListener("wheel", reverse, { passive: false });
+  return () => window.removeEventListener("wheel", reverse);
+};
 
 (function () {
-  HorizontalScroll.start();
+  HorizontalScroll();
 })();
 
 try {

@@ -11,18 +11,22 @@ npm i @james-innes/horizontal-scroll
 ```jsx
 import HorizontalScroll from "@james-innes/horizontal-scroll";
 
-HorizontalScroll.start();
-HorizontalScroll.stop();
+HorizontalScroll();
+
+const stop = HorizontalScroll();
+stop();
 ```
 
 ## UNPKG
 
-No need to `start()` here, it does it by default.
-
 ```html
 <script src="https://unpkg.com/@james-innes/horizontal-scroll/horizontal-scroll.js"></script>
 
-<script>HorizontalScroll.stop()</script>
+<button onclick="stop()">Stop it!</button>
+
+<script>
+  const stop = HorizontalScroll();
+</script>
 ```
 
 ## Example
